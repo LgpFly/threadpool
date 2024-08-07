@@ -62,6 +62,10 @@
     4.  down n 调整栈的位置
     5.  调整到相应的位置之后，info f 会打印栈的信息
     6.  info args 会显示函数的传入参数 可以打印当前函数的参数信息
+23. 信号处理
+    1.  info signals, info handle 展示所有信号和相应的处理方式
+    2.  info signals sig(SIGPIPE) 只展示相应的信号和其处理方式
+    3.  处理信号 handle sig(SIGPIPE) stop/nostop print/noprint pass(noignore)/nopass(ignore) 
 
 
 
